@@ -32,6 +32,10 @@ class CA extends Account{
     acc_Id;
     acc_Bal;
     min_Bal=5000;
+    constructor(id,bal,name,addr,mobl){
+        super(name,addr,mobl)
+        this
+    }
 }
 let SA1=new SA(1,45000,'sure','kerala',1234);
 SA1.deposit_Amount(5000);
